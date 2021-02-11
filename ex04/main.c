@@ -27,7 +27,7 @@ static int add_new_elem(int i, linked_t **head)
 int main(void)
 {
     linked_t *head;
-    int i = 0;
+    int i;
 
     if (add_new_elem(i, &head) == -1)
         return (84);
